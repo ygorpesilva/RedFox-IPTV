@@ -1,0 +1,645 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/img/background/Netflix-está-removendo-filmes-mais-rápido.jpg.webp);
+  font-family: 'Circular Std', sans-serif;
+  box-sizing: border-box;
+
+}
+
+.container {  
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  padding: auto;
+  border-radius: 10px;
+  background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%),url(assets/img/background/estadio.jpg);
+  background-size: cover;
+    
+}
+
+.logoRedFox{
+  display: flex;
+  height: 150px;
+  width: 250px;
+  margin-top:auto;
+  margin-left:auto;
+  
+
+}
+
+.header{
+    display: flex;
+    justify-content:space-between
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 5px, 10px, 10px;
+    margin-top: 15px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow:visible;
+        background:none
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: flex;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 15px 30px;
+        text-decoration: none;
+        background: none;
+        
+      }
+      
+      li a:hover {
+        background-color: #10142f;
+        border-radius: 20px;
+      }
+}
+#btn-IPTV{
+    display: flex;
+    height: 15px;
+    width: 88px;
+    background: none;
+    padding: 9px;
+    border: none;
+    margin-top: auto;
+    }
+
+    .btn-IPTV {
+      cursor: pointer;
+      margin: 10px;
+      margin-top: -15px;
+      text-decoration: none;
+      background-color:rgb(255, 255, 255);
+      color: black;
+     
+      transition: transform 1s;
+      transform: translateX(1) scale(0.5);
+  }
+  button:hover,
+  button:focus {
+      background: rgba(199, 25, 25, 0.793);
+      transform: translateX(2px) scale(0.8);
+  }
+  
+  .btn-IPTV{
+      cursor: pointer;
+      background-color: rgb(157, 0, 0);
+      color: rgb(0, 0, 0);
+      font-size: 17px;
+      padding: 2px 35px ;
+      color: #9b0303;
+      transition: all 0.9s;
+      position: relative;
+      }
+      .btn-IPTV::before {
+        
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background-color: rgba(177, 6, 6, 0.1);
+          transition: all 0.3s;
+        }
+      .btn-IPTV {
+          cursor: pointer;
+          margin: 2px 10px;
+          margin-top: -15px;
+          text-decoration: none;
+          background-color:rgb(162, 0, 0);
+          color: black;
+   
+    transition: transform 1s;
+    transform: translateX(1) scale(0.5);
+}
+button:hover,
+button:focus {
+    background: rgba(210, 0, 0, 0.793);
+    transform: translateX(2px) scale(0.8);
+}
+
+.btn-IPTV{
+    cursor: pointer;
+    background-color: rgb(42, 35, 90);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+    }
+    .btn-IPTV::before {
+        content: '';
+        position: absolute;
+        text-decoration: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(255,255,255,0.1);
+        transition: all 0.3s;
+      }
+      .btn-IPTV:hover::before {
+        opacity: 0 ;
+        transform: scale(0.5,0.5);
+      }
+      .btn-IPTV::after {
+        content: '';
+        text-decoration: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0;
+        transition: all 0.3s;
+        border: 1px solid rgba(255,255,255,0.5);
+        transform: scale(1.2,1.2);
+      }
+      .btn-IPTV:hover::after {
+        opacity: 1;
+        transform: scale(1,1);
+        }:hover::before {
+          opacity: 0 ;
+          transform: scale(0.5,0.5);
+        }
+        .btn-IPTV::after {
+         text-decoration: none;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          opacity: 0;
+          transition: all 0.3s;
+          transform: scale(1.2,1.2);
+        }
+        .btn-IPTV:hover::after {
+          opacity: 1;
+          transform: scale(1,1);
+          }
+
+
+.main{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+
+
+.soccerMan{
+   display: flex;
+   justify-content: end;
+}
+
+.container2{ 
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: large;
+}
+
+.section-container2{
+  color: #fff;
+}
+
+.box-container2{
+  display: flex;
+  width: 92%;
+  margin: 0 12px;
+  border-radius: 25px;
+  box-sizing: border-box;
+ 
+    
+}
+
+
+.container-movie{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 96.1%, rgba(69, 84, 121, 0.3) 25.4%), url(assets/img/Netflix-está-removendo-filmes-mais-rápido.jpg.webp);
+    border-radius: 6px;
+    box-shadow: 3px;
+
+}
+.box{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 6px;
+  box-shadow: 2px; 
+  margin: 0 120px;
+  background-image: url(assets/img/background/estadio.jpg);
+
+}
+.lista-futebol{
+  display: flex;
+  margin-left: 15px;
+  top: 50;
+  padding: 0 auto;
+  font-size:medium;
+  color: #fff;
+  
+}
+.box-text{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+    color: #fff;
+   
+}
+
+.bloco-canais{
+display: flex;
+align-items: center;
+margin: 1rem;
+padding: 0 9rem;
+overflow: hidden;
+
+}
+.mobile2{
+  display: flex;
+  justify-content:center ;
+  width: 80%;
+  padding: 10px 35px;
+  height: 160px;
+  margin: 0 35px;
+
+  
+}
+
+#blocks-texts{
+   
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0 2rem;
+    margin: 2rem 2rem;
+    
+     
+    animation-duration: 3s;
+    animation-name: slidein;
+      } 
+      
+       @keyframes slidein {
+        from {
+          margin-left: 80%;
+          width: 250%;
+        }
+      
+        to {
+          margin-right: 0%;
+          width: 100%;
+        } 
+         
+ } 
+
+.box-plan-start{
+    background-color: #491bb4;
+    opacity: 0.8;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 6rem;
+    list-style-image:url(assets/img/2.png);
+    
+    
+}
+.title-plan-start{
+    font-size: xx-large;
+}
+
+.title-box-value-start  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-plan-pro{
+    background-color: #491bb4;
+    opacity: 0.8;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 6rem;
+    list-style-image:url(assets/img/2.png);
+}
+
+.title-plan-pro{
+    font-size:xx-large ;
+}
+
+.title-box-value-pro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSuppor{
+  width: auto;
+  padding: 25 30 50 ;
+}
+
+.support-btn{
+width: 100%;
+height: 60px;
+border-radius: 6px;
+border: none; 
+transition: all 0.5s;
+text-decoration: none;
+}
+
+.icon {
+      position: fixed;
+      bottom: 20px;
+      right: 5px;
+      font-size: 30px;
+      background-color: #01e675;
+      color: #fff;
+      border-radius: 50%;
+      padding: 2px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      text-decoration: none;
+      z-index: 120;
+  
+    }
+    
+    .icon .fab{
+      padding-top: 9px;
+    }
+    
+    .icon:hover{
+      background-color: #fff;
+      color: #029e3b;
+      font-weight: 1000;
+      box-shadow: 2px 2px 15px #5fe690;
+    }
+
+#faq{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.duvidas{
+color: #ffffff;
+}
+
+details{
+  width: 1000px;
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 25px;
+  border-bottom: 2px solid black;
+  color: rgb(0, 0, 0);
+}
+ summary, p{
+  margin: 2%;
+  color: #282828
+}
+
+@media screen and (max-width: 890px ){
+.container{
+width: 92%;
+height: 530px;
+
+}
+
+.nav{
+  font-size: small;
+}
+
+/* LOGO REDFOX */
+.logoRedFox{
+width: 160px;
+height: 100px;
+
+}
+/* TITULO PRINCPAL */
+.main{
+margin: 60px 30px;
+font-size: x-small;
+}
+.main h3{
+  margin-bottom: 30px;
+}
+.title-IPTV{
+display: none;
+}
+
+.subtitle-IPTV{
+font-size: xx-large;
+}
+/* sessão de filmes */
+.box-container2{
+  width: 100%;
+  height:450px;
+  display: flex;
+  margin: 10px;
+
+
+  
+
+}
+.container-movie{
+  display: flex;
+  align-items: center;
+  width: 96%;
+  height: 530px;
+  border-radius: 25px;
+}
+.box-text{
+font-size: large;
+ height: 350px;
+}
+
+.img-filmes{
+ width: 100%;
+ display: flex;
+ margin: 0 35px;
+ padding: 2px;
+
+ 
+}
+.mobile{
+  width: 95%;
+
+  background-color: wheat;
+  opacity: 0.9;
+  width: 350px;
+  height: 150px;
+}
+.mobile2{
+
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin:  0 110px;
+
+}
+
+.bloco-canais{
+  display: none;
+}
+/* container futebol */
+
+.box{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+width: 87%;
+height: 450px;
+background-color: #01e675;
+border-radius: 25px;
+background-image: url(assets/img/background/estadio.jpg);
+opacity: 0.8;
+margin: 0 45px;
+}
+.lista-futebol{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  font-size: small;
+  width: 360px;
+  height: 150px;  
+}
+.img-fut{
+  width: 40%;
+  margin: 0 350px;
+}
+
+.box-plan-start{
+width: 25%;
+background-color: #491bb4;
+opacity: 0.9;
+}
+plan-pro-text{
+size: medium;
+}
+
+}
+.box-plan-pro{
+width: 25%;
+margin: 18px;
+background-color: #491bb4;
+opacity: 0.9;
+}
+
+#faq{
+display: flex;
+align-items: center;
+
+
+}
+.faq2, details{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 310px;
+height: 90px;
+margin-bottom: 8px;
+:hover{
+  background-color: #ff0000;
+}
+ 
+}
+.duvidas{
+background-color: #10142f;
+border-radius: 35px;
+margin: 10px 0 10px;
+width: 310px;
+text-align: center;
+color: white;
+opacity: 0.7;
+
+}
+
+@media screen and (max-width: 460px){
+  .soccerMan{
+  display: none;
+  }
+
+  .box-container2{
+    display: flex;
+    margin: 8px;
+    padding: auto;
+    width: 430px;
+    height: 210px;
+  }
+  .box-text{
+    text-align: start;
+  }
+  
+  .mobile2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 350px 25px 80px;
+    border-radius: 2px
+
+  }
+  .templateCopabrasil{
+    width: 100px;
+  
+  }
+  .box{
+    display: flex;
+    align-items: center;
+    width: 420px;
+  }
+  .img-fut{
+    display: flex;
+    justify-content: start;
+    align-items: start
+    
+    
+   
+
+  }
+  #blocks-texts{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    align-items: start;
+  }
+
+  box-plan-start{
+    width: 35%;
+    background-color: #491bb4;
+    opacity: 0.9;
+    }
+    plan-pro-text{
+    size: medium;
+    }
+}
+
+
+
